@@ -1,0 +1,19 @@
+<html>
+
+<head>
+<title>YUI 2 Tern</title>
+<script type="text/javascript" src="yui.data.json.js"></script>
+<script type="text/javascript" src="../../lib/tern-yuidoc.js"></script>
+<script type="text/javascript" src="../../lib/tern-yui.js"></script>
+<script type="text/javascript">
+  function yui2Tern() {
+    var ternDef = TernYUIDoc.YUI.generate(yuiDoc);
+    document.getElementById('ternDef').value = JSON.stringify(ternDef, null,
+        ' ');
+  }
+</script>
+</head>
+<body onload="yui2Tern();">
+	<textarea id="ternDef" style="width: 100%; height: 100%"></textarea>
+</body>
+</html>
