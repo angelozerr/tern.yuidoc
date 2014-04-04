@@ -14,8 +14,8 @@ from their Javascript sources by using [yuidoc](https://github.com/yui/yuidoc/).
 
 You can see demo :
 
- * with yui.js tern plugin [here](http://codemirror-java.opensagres.eu.cloudbees.net/codemirror-javascript/demo/yui.html).
- * with yui.js tern plugin [here](http://codemirror-java.opensagres.eu.cloudbees.net/codemirror-javascript/demo/aui.html).
+ * with [yui.js](https://github.com/angelozerr/tern.yuidoc/blob/master/plugin/yui.js) tern plugin [here](http://codemirror-java.opensagres.eu.cloudbees.net/codemirror-javascript/demo/yui.html).
+ * with [aui.js](https://github.com/angelozerr/tern.yuidoc/blob/master/plugin/aui.js)  tern plugin [here](http://codemirror-java.opensagres.eu.cloudbees.net/codemirror-javascript/demo/aui.html).
  
 ## How it works? 
 
